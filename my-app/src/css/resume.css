@@ -10,6 +10,10 @@ body {
   color: #868e96;
 }
 
+.fontForAboutMePage{
+  font-size: 20px;
+}
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
@@ -42,9 +46,8 @@ h3 {
   font-size: 2rem;
 }
 
-p.lead {
-  font-size: 1.15rem;
-  font-weight: 400;
+.fontSizeForEducation{
+  font-size: larger;
 }
 
 .subheading {
@@ -83,10 +86,8 @@ p.lead {
   color: #BD5D38;
 }
 
-#sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
+.textSize{
+  font-size: larger;
 }
 
 #sideNav .navbar-toggler:focus {
