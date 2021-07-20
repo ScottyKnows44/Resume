@@ -3,7 +3,7 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/resume.css';
 import './css/resume.min.css';
-import profile from '../src/img/profile.jpeg';
+import profile from '../src/img/profile.jpg';
 import { GoMarkGithub } from 'react-icons/go';
 import {IoLogoCss3} from 'react-icons/io';
 import { AiFillHtml5, AiFillLinkedin, AiOutlineConsoleSql } from 'react-icons/ai';
