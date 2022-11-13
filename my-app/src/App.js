@@ -4,6 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/resume.css';
 import './css/resume.min.css';
 import profile from '../src/img/profile.jpg';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 import { GoMarkGithub } from 'react-icons/go';
 import {IoLogoCss3} from 'react-icons/io';
 import { AiFillHtml5, AiFillLinkedin, AiOutlineConsoleSql } from 'react-icons/ai';
@@ -56,13 +58,13 @@ function App() {
           <div className="subheading mb-5 mt-3">Contact me at: (253)-217-8029 -
             <a href="mailto:name@email.com">Scottcfalcon@gmail.com</a>
           </div>
-          <p className="lead mb-5">Hard working Developer dedicated to learning what life has to give. Born with natural leadership skills and a love of Software that can adapt in any company culture. </p>
+          <p className="lead mb-5">Hard working developer dedicated to learning what life has to give. Born with natural leadership skills and a love of software that can adapt in any company culture. </p>
           <div className="social-icons">
             <a href="https://www.linkedin.com/in/scott-thompson-087508158/">
-              <GoMarkGithub />
+             <AiFillLinkedin />
             </a>
             <a href="https://github.com/ScottyKnows44">
-              <AiFillLinkedin />
+              <GoMarkGithub />
             </a>
 
           </div>
@@ -75,14 +77,27 @@ function App() {
       <div className="w-100">
         <h2 className="mb-5">Experience</h2>
 
+      <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+        <div className="resume-content">
+            <h3 className="mb-0">Oak Harbor Freight Lines - Web Developer </h3>
+            <div className="subheading mb-3">2021 - Current</div>
+            <ul className="noBullets">
+                  <li className="list-item">Managed and developed Oak Harbor Freight Lines web site and API.</li>
+                  <li className="list-item">Built PHP scripts to sync and analyze data between multiple databases</li>
+                  <li className="list-item">Designed SSIS Packages to control dataflow from FTP servers to MSSQL Databases</li>
+                  <li className="list-item">Oversaw perfomance and data logistics </li>
+            </ul>
+         </div>
+       </div>
+
         <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div className="resume-content">
             <h3 className="mb-0">Cheapreats - Web Developer </h3>
-            <div className="subheading mb-3">2020 - present</div>
+            <div className="subheading mb-3">2020 - 2021</div>
             <ul className="noBullets">
               <li className="list-item"> Creating new dynamic React components in Storybook, integrating with Gatsby.</li>
               <li className="list-item"> Providing consistent work that passes peer review.</li>
-              <li className="list-item"> Present/ Demo work weekly, and incorporate client feedback into the product.</li>
+              <li className="list-item"> Present/Demo work weekly, and incorporate client feedback into the product.</li>
               <li className="list-item"> Learning and applying new technologies such as React Hooks, Gatsby, and Storybook.</li>
             </ul>  
           </div>
@@ -119,10 +134,10 @@ function App() {
     <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
       <div className="resume-content">
         <h3 className="mb-0">Green River College</h3>
-        <div className="mb-0 mt-2 fontSizeForEducation">Bachelor's In Computer Science</div>
+                              <div className="mb-0 mt-2 fontSizeForEducation">Bachelor's In Computer Science, Completed In 2021</div>
         <div className="subheading mb-3"></div>
-        <h5>2019 - 2021</h5>
-        <p className="mt-1 fontSizeForEducation">Associate Degree in Criminal Justice, earned in 2017 </p>
+        
+        <p className="mt-1 fontSizeForEducation">Associate Degree in Criminal Justice, Completed In 2017 </p>
       </div>
     </div>
 

@@ -5,10 +5,11 @@
  */
 
 body {
-  font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  padding-top: 54px;
-  color: #868e96;
+    font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    padding-top: 54px;
+    color: ##36393c;
 }
+
 
 .fontForAboutMePage{
   font-size: 20px;
@@ -172,11 +173,11 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-color: #BD5D38 !important;
+    background-color: #4c5156 !important;
 }
 
 .text-primary {
-  color: #BD5D38 !important;
+    color: #BD5D38 !important;
 }
 
 a {
